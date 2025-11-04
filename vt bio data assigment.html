@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biodata Form</title>
+</head>
+
+<body>
+    <h1 align="center">Biodata Form</h1>
+    <form>
+        <fieldset>
+            <legend>Personal Details</legend>
+
+            <label>Name:</label>
+            <input type="text" name="name"><br><br>
+
+            <span>Gender:</span>
+            <label><input type="radio" name="gender" value="male">Male</label>
+            <label><input type="radio" name="gender" value="Female">Female</label>
+            <label><input type="radio" name="gender" value="other">other</label><br><br>
+
+            <label for="dob">Date of birth:</label>
+            <input type="date" id="dob"><br><br>
+
+            <label for="tob">Time of Birth:</label>
+            <input type="time" id="tob"><br><br>
+
+            <label for="pob">Place of Birth:</label>
+            <input type="text" id="pob"><br><br>
+
+            <label for="zod">Zodiac Sign:</label>
+            <input type="text" name="zodiac sign" id="zod"><br><br>
+
+            <label for="naksh">Nakshtra:</label>
+            <input type="text" name="nakshtra" id="naksh"><br><br>
+
+            <label for="high">Height:</label>
+            <input type="number" step="0.1" name="height" id="high"><br><br>
+
+
+            <label for="martial">Martial Status:</label>
+            <input type="text" name="martial status" id="marital"><br><br>
+
+            <label for="complexion">Complexion:</label>
+            <input type="text" name="complexion" id="complexion"><br><br>
+
+            <label>Educational qualification:</label>
+            <select name="marital_status">
+                <option>Select</option>
+                <option>10th pass</option>
+                <option>12th pass</option>
+                <option>Diploma</option>
+                <option>Graduation</option>
+                <option>post graduation</option>
+                <option>Phd</option>
+            </select><br><br>
+
+            <label for="hob">Hobbies:</label>
+            <input type="text" id="hob"><br><br>
+
+            <label for="anu">Annual income:</label>
+            <input type="text" name="Annual income" id="anu"><br><br>
+        </fieldset><br>
+
+        <fieldset>
+            <legend>Family's Details</legend>
+            <label>Father's Name:</label>
+            <input type="text" name="father's name">
+
+            <label>Father's occupation:</label>
+            <input type="text" name="f-occupation"><br><br>
+
+            <label>Mother's Name:</label>
+            <input type="text" name="mother's name">
+
+            <label>Mother's occupation:</label>
+            <input type="text" name="m-occupation"><br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Contact Details:</legend>
+            <label for="tel">Contact number:</label>
+            <input type="tel" id="tel" maxlength="10">
+
+            <label for="mail">E-mail:</label>
+            <input type="email" id="mail">
+
+        </fieldset>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
